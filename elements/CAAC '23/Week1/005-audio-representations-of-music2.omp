@@ -1,0 +1,4 @@
+; OM File Header - Saved 2023/02/08 17:15:29
+; (7.01 :patc (om-make-point 550 10) (om-make-point 287 25) (om-make-point 1105 709) "" 183 0 nil "2023/02/08 17:13:32")
+; End File Header
+(in-package :om)(load-lib-for (quote nil))(setf *om-current-persistent* (om-load-patch1 "005-audio-representations-of-music2" (quote nil) (quote nil) nil 7.01))

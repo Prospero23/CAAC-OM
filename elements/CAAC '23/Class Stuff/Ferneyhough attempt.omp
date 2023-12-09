@@ -1,0 +1,4 @@
+; OM File Header - Saved 2023/03/10 12:01:29
+; (7.01 :patc (om-make-point 388 10) (om-make-point 679 43) (om-make-point 833 641) "" 183 0 "2023/02/04 11:38:23" "2023/03/10 12:01:29")
+; End File Header
+(in-package :om)(load-lib-for (quote nil))(setf *om-current-persistent* (om-load-patch1 "Ferneyhough attempt" (quote ((let ((box (om-load-boxcall (quote genfun) "POSN-MATCH" (quote posn-match) (quote ((om-load-inputfun (quote input-funbox) "a list" "LIST" (list 10 20 30 40 50 60 70 80 90)) (om-load-inputfun (quote input-funbox) "a list positions" "POSITIONS" (list (list 0 1) 4 (list 6))))) (om-make-point 202 330) nil nil nil nil 1))) (when (fboundp (quote set-active)) (set-active box nil)) box))) (quote nil) nil 7.01))
